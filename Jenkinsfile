@@ -30,7 +30,7 @@ pipeline {
            sshagent(['githubpwd']) {
 
               sh """
-			  scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/JenkinsProject2/target/*.war ec2-user@3.7.252.136:/home/ec2-user
+			  scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/JenkinsProject2/target/*.war ec2-user@3.7.252.136:/home/ec2-user/tomcat981/webapps
 			 """
 
             }
