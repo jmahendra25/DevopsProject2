@@ -3,7 +3,7 @@ pipeline {
 	
 	 environment{
 	 
-	  M2_HOME="/usr/share/maven/bin"
+	  M2_HOME="/opt/maven3/bin"
       PATH = "$M2_HOME:$PATH"
     } 
 
