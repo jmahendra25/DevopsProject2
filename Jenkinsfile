@@ -25,12 +25,7 @@ pipeline {
             
         }
 	    
-	    stage('Test Build') {
-            steps {
-              cleanWorkspace = true
-            }
-            
-        }
+	 
 		
 		stage('Deploy') {
             steps {
